@@ -1,4 +1,7 @@
 #!/bin/bash
+<<info 
+a Cron job to analyze system usage (CPU, Disk and memory) for every 5 minutes 
+info
 
 DATE=$(date +%Y_%m_%d_%H_%M)
 LOGFILE="/home/ubuntu/shell-scripts/LOGFILE.log"
